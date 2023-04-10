@@ -19,7 +19,7 @@ public class ServletUploadControllerV1 {
 
     @GetMapping("/upload")
     public String newFile() {
-        return "성";
+        return "upload-form";
     }
 
     @PostMapping("/upload")
